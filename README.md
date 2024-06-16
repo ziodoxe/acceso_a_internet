@@ -1,7 +1,13 @@
-{{cookiecutter.project_name}}
+Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 ==============================
 
-{{cookiecutter.description}}
+## Descripción
+
+Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para mejorar el acceso a internet.
+
+## Estructura del Proyecto
+
+La estructura del proyecto sigue la plantilla Cookiecutter Data Science y es la siguiente:
 
 Project Organization
 ------------
