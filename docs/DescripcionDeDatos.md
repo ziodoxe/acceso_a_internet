@@ -196,3 +196,4 @@ Tipo de campo:
 
 **Fuente de Datos:**
 El dataset se obtuvo de la pagina [] https://sitioanterior.indec.gob.ar/bases-de-datos.asp
+También se encuentra el documento original de la descripción del dataset en formato PDF con el nombre modulo_tic_registro_T418.pdf en esta misma carpeta.
