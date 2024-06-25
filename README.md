@@ -5,6 +5,10 @@ Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 
 Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para mejorar el acceso a internet.
 
+Los detalles se encuentran en el archivo 'DescripcionDeDatos.md' que se encuentra en la carpeta 'docs'.
+
+link: https://sitioanterior.indec.gob.ar/bases-de-datos.asp
+
 ## Estructura del Proyecto
 
 La estructura del proyecto sigue la plantilla Cookiecutter Data Science y es la siguiente:
