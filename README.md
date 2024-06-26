@@ -3,7 +3,19 @@ Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 
 ## Descripción
 
-Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para mejorar el acceso a internet.
+Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para clasificar al individuo su cercania con la tecnologia, etiquetandolo como MEDIO, BAJO, ALTO. Teniendo en cuanta las variables de:
+
+1) IP_III_04 (En los últimos meses, ¿utilizó internet?)
+2) IP_III_05 (En los últimos tres meses, excluyendo el uso de internet, ¿utilizó computadora?)
+3) IP_III_06 (En los últimos tres meses, ¿utilizó un teléfono móvil (celular)?)
+
+Podremos clasificarlos en:
+Si es verdadero los items 1, 2 y 3 como ALTO.
+Si es verdadero los items 1 y 2 como MEDIO.
+Si es verdadero el items 1 como BAJO.
+
+Cualquier otra combinacion no se tomara en cuanta.
+
 
 Los detalles se encuentran en el archivo 'DescripcionDeDatos.md' que se encuentra en la carpeta 'docs'.
 
