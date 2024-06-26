@@ -19,7 +19,7 @@ Cualquier otra combinacion no se tomara en cuanta.
 
 Los detalles se encuentran en el archivo 'DescripcionDeDatos.md' que se encuentra en la carpeta 'docs'.
 
-link: https://sitioanterior.indec.gob.ar/bases-de-datos.asp
+link: https://sitioanterior.indec.gob.ar/bases-de-datos.asp en la pestaña de Ciencia y Tecnologia.
 
 ## Estructura del Proyecto
 
