@@ -1,13 +1,20 @@
+![Banner Politecnico Malvinas Argentinas](..\reports\figures\banner_politecnico_malvinas.jpg)
+
 Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 ==============================
 
 ## Descripción
 
-Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para clasificar al individuo su cercania con la tecnologia, etiquetandolo como MEDIO, BAJO, ALTO. Teniendo en cuanta las variables de:
+Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para clasificar al individuo su cercania con la tecnologia, etiquetandolo como MEDIO, BAJO, ALTO.
 
-1) IP_III_04 (En los últimos meses, ¿utilizó internet?)
-2) IP_III_05 (En los últimos tres meses, excluyendo el uso de internet, ¿utilizó computadora?)
-3) IP_III_06 (En los últimos tres meses, ¿utilizó un teléfono móvil (celular)?)
+Nos ubicamos en Argentina más precisamente en la Provincia de Tierra del Fuego, donde la acceso a internet es limitado con respecto a las demás provincias del país, debido a la localización geografica en la que nos encontramos.
+
+ Teniendo en cuenta las variables de:
+1) IH_II_01 (En este hogar, ¿tienen computadora/s?)
+2) IH_II_02 (En este hogar, ¿disponen de acceso a internet?) 
+3) IP_III_04 (En los últimos meses, ¿utilizó internet?)
+4) IP_III_05 (En los últimos tres meses, excluyendo el uso de internet, ¿utilizó computadora?)
+5) IP_III_06 (En los últimos tres meses, ¿utilizó un teléfono móvil (celular)?)
 
 Podremos clasificarlos en:
 Si es verdadero los items 1, 2 y 3 como ALTO.
@@ -15,6 +22,11 @@ Si es verdadero los items 1 y 2 como MEDIO.
 Si es verdadero el items 1 como BAJO.
 
 Cualquier otra combinacion no se tomara en cuanta.
+
+Preguntas a responder:
+¿Qué factores determinan si una persona tiene acceso a internet?
+¿Cuáles son las principales características que distinguen a las personas que usan internet de aquellas que no lo usan?
+¿Cómo se pueden agrupar las personas según su uso de tecnologías de la información y la comunicación?
 
 
 Los detalles se encuentran en el archivo 'DescripcionDeDatos.md' que se encuentra en la carpeta 'docs'.
