@@ -1,4 +1,4 @@
-![Banner Politecnico Malvinas Argentinas](..\reports\figures\banner_politecnico_malvinas.jpg)
+![Banner Politecnico Malvinas Argentinas](https://github.com/ziodoxe/acceso_a_internet/blob/main/reports/figures/banner_politecnico_malvinas.jpg)
 
 Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 ==============================
