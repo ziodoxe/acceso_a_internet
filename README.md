@@ -1,13 +1,14 @@
-![Banner Politecnico Malvinas Argentinas](https://github.com/ziodoxe/acceso_a_internet/blob/main/reports/figures/banner_politecnico_malvinas.jpg)
+![](https://github.com/ziodoxe/acceso_a_internet/blob/main/reports/figures/banner_politecnico_malvinas.jpg)
 
 Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
-==============================
 
-## Descripción
+-------------
+## Objetivo
+-------------
 
 Este proyecto se centra en el análisis y predicción al acceso a internet utilizando diversas técnicas de ciencia de datos y aprendizaje automático. El objetivo es identificar patrones en los datos sobre el uso de otras tecnologías de la información y comunicación y desarrollar modelos predictivos para clasificar al individuo su cercania con la tecnologia, etiquetandolo como MEDIO, BAJO, ALTO.
 
-Nos ubicamos en Argentina más precisamente en la Provincia de Tierra del Fuego, donde la acceso a internet es limitado con respecto a las demás provincias del país, debido a la localización geografica en la que nos encontramos.
+Nos ubicamos en Argentina más precisamente en la Provincia de Tierra del Fuego, donde la acceso a internet es limitado con respecto a las demás provincias del país, esto debido a la localización geografica en la que nos encontramos. A esto se suma que no hay demasiada inversión ni demasiada competencia de parte del sector privado. De parte del estado se provee ayuda en centros tecnológicos, ofreciendo el acceso a internet gratuito.
 
  Teniendo en cuenta las variables de:
 1) IH_II_01 (En este hogar, ¿tienen computadora/s?)
