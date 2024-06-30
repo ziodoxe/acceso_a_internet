@@ -4,7 +4,7 @@
 
 ## Cantidad de Instancias:
 
-El conjunto de datos se compone de 54178 filas, de las cuales se analizarán 1144 que corresponden a las ciudades de Rio Grande y Ushuaia, cada una de ellas representando una observación única que hace referencia a la encuesta realizada por el INDEC en el marco de la Encuesta Permanente de Hogares (EPH) a nivel nacional en el cuarto trimestre del año 2018.
+El conjunto de datos se compone de 2 dataset llamados EPH_usu_hogar_tic_t418.xlsx (Hogar) y EPH_usu_Indiv_tic_t418.xlsx (Personas) compuesto por 18600 filas y 54178 filas respectivamente, de las cuales se analizarán los datos que pertenecen a Tierra del Fuego e IAS. Para poder analizar los datos se extraerá las columnas o datos necesarios del dataset Hogar y se los concatenará en el dataset de Personas, dando un total de 1144 filas a analizar que corresponden a las ciudades de Rio Grande y Ushuaia, cada una de ellas representando una observación única que hace referencia a la encuesta realizada por el INDEC en el marco de la Encuesta Permanente de Hogares (EPH) a nivel nacional en el cuarto trimestre del año 2018.
 
 ## Diseño de registros de la base de personas
 
@@ -194,6 +194,23 @@ Tipo de campo:
 9 = Ns/Nr
 
 
+## Analisis del dataset.
+
+Teniendo en cuenta las variables de:
+1) IH_II_01 (En este hogar, ¿tienen computadora/s?)
+2) IH_II_02 (En este hogar, ¿disponen de acceso a internet?) 
+3) IP_III_04 (En los últimos meses, ¿utilizó internet?)
+4) IP_III_05 (En los últimos tres meses, excluyendo el uso de internet, ¿utilizó computadora?)
+5) IP_III_06 (En los últimos tres meses, ¿utilizó un teléfono móvil (celular)?)
+
+Podremos clasificarlos en:
+Si es verdadero los items 1, 2 y 3 como ALTO.
+Si es verdadero los items 1 y 2 como MEDIO.
+Si es verdadero el items 1 como BAJO.
+
+Cualquier otra combinacion no se tomara en cuanta.
+
 **Fuente de Datos:**
-El dataset se obtuvo de la pagina [] https://sitioanterior.indec.gob.ar/bases-de-datos.asp
+El dataset se obtuvo de la pagina 
+`<link>` : <https://sitioanterior.indec.gob.ar/bases-de-datos.asp>
 También se encuentra el documento original de la descripción del dataset en formato PDF con el nombre modulo_tic_registro_T418.pdf en esta misma carpeta.
