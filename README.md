@@ -15,9 +15,9 @@ Nos ubicamos en Argentina más precisamente en la Provincia de Tierra del Fuego,
 Mediante una encuesta realizada por el INDEC en 2018 a nivel nacional, se tratará de responder a las siguientes preguntas haciendo foco en la Provincia de Tierra del Fuego y sus localidades de Rio Grande y Ushuaia.
 
 Preguntas a responder:
-¿Qué factores determinan si una persona tiene acceso a internet?
-¿Cuáles son las principales características que distinguen a las personas que usan internet de aquellas que no lo usan?
-¿Cómo se pueden agrupar las personas según su uso de tecnologías de la información y la comunicación?
+1) ¿Qué factores determinan si una persona tiene acceso a internet?
+2) ¿Cuáles son las principales características que distinguen a las personas que usan internet de aquellas que no lo usan?
+3) ¿Cómo se pueden agrupar las personas según su uso de tecnologías de la información y la comunicación?
 
 
 Los detalles de la descripción del dataset se encuentran en el archivo [DescripcionDeDatos.md](https://github.com/ziodoxe/acceso_a_internet/blob/main/docs/DescripcionDeDatos.md) que se encuentra en la carpeta 'docs'.
