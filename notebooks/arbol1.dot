@@ -1,3 +1,33 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
+0 [label="acceso_internet <= 1.5\nsamples = 858\nvalue = [786, 72]\nclass = 1", fillcolor="#e78d4b"] ;
+1 [label="uso_computadora <= 1.5\nsamples = 794\nvalue = [760, 34]\nclass = 1", fillcolor="#e68742"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="uso_movil <= 1.5\nsamples = 548\nvalue = [544, 4]\nclass = 1", fillcolor="#e5823a"] ;
+1 -> 2 ;
+3 [label="samples = 514\nvalue = [512, 2]\nclass = 1", fillcolor="#e5813a"] ;
+2 -> 3 ;
+4 [label="samples = 34\nvalue = [32, 2]\nclass = 1", fillcolor="#e78945"] ;
+2 -> 4 ;
+5 [label="uso_movil <= 1.5\nsamples = 246\nvalue = [216, 30]\nclass = 1", fillcolor="#e99254"] ;
+1 -> 5 ;
+6 [label="samples = 197\nvalue = [180, 17]\nclass = 1", fillcolor="#e78d4c"] ;
+5 -> 6 ;
+7 [label="samples = 49\nvalue = [36, 13]\nclass = 1", fillcolor="#eeae80"] ;
+5 -> 7 ;
+8 [label="uso_movil <= 1.5\nsamples = 64\nvalue = [26, 38]\nclass = 2", fillcolor="#c0e0f7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="uso_computadora <= 1.5\nsamples = 48\nvalue = [24, 24]\nclass = 1", fillcolor="#ffffff"] ;
+8 -> 9 ;
+10 [label="samples = 4\nvalue = [4, 0]\nclass = 1", fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label="samples = 44\nvalue = [20, 24]\nclass = 2", fillcolor="#deeffb"] ;
+9 -> 11 ;
+12 [label="tiene_computadora <= 1.5\nsamples = 16\nvalue = [2, 14]\nclass = 2", fillcolor="#55abe9"] ;
+8 -> 12 ;
+13 [label="samples = 3\nvalue = [0, 3]\nclass = 2", fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label="samples = 13\nvalue = [2, 11]\nclass = 2", fillcolor="#5dafea"] ;
+12 -> 14 ;
+}
