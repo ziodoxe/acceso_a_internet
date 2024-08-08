@@ -1,5 +1,10 @@
 ![](https://github.com/ziodoxe/acceso_a_internet/blob/main/reports/figures/banner_politecnico_malvinas.jpg)
 
+
+###################################################################################################
+# LINK DEL VIDEO: https://drive.google.com/file/d/1VSvW3x6EcnB_ylO0r09NSeueu27NmY9C/view?usp=sharing
+###################################################################################################
+
 # Análisis de Acceso a Internet en la Provincia de Tierra del Fuego e IAS
 
 ## Objetivo
@@ -15,9 +20,9 @@ Nos ubicamos en Argentina más precisamente en la Provincia de Tierra del Fuego,
 Mediante una encuesta realizada por el INDEC en 2018 a nivel nacional, se tratará de responder a las siguientes preguntas haciendo foco en la Provincia de Tierra del Fuego y sus localidades de Rio Grande y Ushuaia.
 
 Preguntas a responder:
-1) ¿Qué factores determinan si una persona tiene acceso a internet?
-2) ¿Cuáles son las principales características que distinguen a las personas que usan internet de aquellas que no lo usan?
-3) ¿Cómo se pueden agrupar las personas según su uso de tecnologías de la información y la comunicación?
+1) ¿Qué factores determinan si un hogar tiene acceso a internet?
+2) ¿Cuáles son las principales características que distinguen a los hogares que usan internet de aquellos que no lo usan?
+3) ¿Cómo se pueden agrupar los hogares según su uso de tecnologías de la información y la comunicación?
 
 
 Los detalles de la descripción del dataset se encuentran en el archivo [DescripcionDeDatos.md](https://github.com/ziodoxe/acceso_a_internet/blob/main/docs/DescripcionDeDatos.md) que se encuentra en la carpeta 'docs'.
